@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+}
+
+.color-de-fondo-home{
+    background-color: indigo;
+}
+
+/* Header + Menú de navegación */
+
+.container-fluid{
+    margin-bottom: 5%;
+}
+
+.logo-principal{
+    margin-left: 25px;
+}
+.nav-link {
+    color: white;
+}
+
+.btn {
+    background-color: #FFB71B;
+    color: black;
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-item{
+    margin: 25px;
+}
+
+/* Sección Banner */
+
+.container-banner{
+    width: 100%;
+    height: 80vh;
+}
+
+.banner{
+    width: 100%;
+    height: 65vh;
+    background-image: url(../img/home/bannerhome.jpg);
+    background-size: cover;
+    background-position: 69%;
+
+}
+
+.banner-texto{
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+
+/* Sección como acumular */
+
+#container-como-acumular{
+    margin-bottom: 8%;
+}
+
+.texto-como-acumular-home{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+
+@media (max-width: 768px) {
+    .texto-como-acumular-home{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.row{
+    justify-content: center;
+    gap: 3%;
+    margin-bottom: 8%
+    
+}
+
+.card{
+    margin-bottom: 10%;
+}
+
+/* Sección ¿Qué quieres canjear? */
+
+.texto-que-quieres-cajear{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    overflow: scroll;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+
+
+@media (max-width: 560px) {
+    .texto-que-quieres-cajear{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+.container-carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+@media (min-width: 768px) {
+    .container-carrusel{
+        overflow: hidden;
+    }
+}
+
+.foto1{
+    flex: 1 0 auto;
+    margin: 0 10px;
+    background-image: url(../img/home/img1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    scroll-snap-align: center;
+}
+
+.foto2{
+    flex: 1 0 auto;
+    margin: 0 10px;
+    background-image: url(../img/home/img2.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+.foto3{
+    flex: 1 0 auto;
+    margin: 0 10px;
+    background-image: url(../img/home/img3.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+
+
+/* Sección Footer */
+
+
+
+
+
+/* Página de inscripción */
+
+.container-banner-inscripcion{
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 5%;
+}
+
+.banner-inscripcion{
+    width: 100%;
+    height: 65vh;
+    background-image: url(../img/pag-informativa-como-acumular/img1.jpg);
+    background-size: cover;
+}
+
+.texto-formulario-inscripcion{
+    display: flex;
+    justify-content: center;
+}
+
+#titulo-pagina-inscripcion{
+    color:black
+}
+
+.container-formulario{
+    margin: 5%;
+}
+
+
+.texto-volver-inicio{
+    font-size: 15px;
+    text-decoration: underline;
+    color: blue;
+
+}
