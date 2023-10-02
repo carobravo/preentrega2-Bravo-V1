@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Creando variables */
+/* Creando variables */
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +25,6 @@ section {
   background-color: indigo;
 }
 
-/* Página Home */
 /* Header + Menú de navegación */
 #logo-principal {
   margin-left: 25px;
@@ -115,6 +116,7 @@ section {
   .texto-que-quieres-cajear {
     flex-direction: column;
     text-align: center;
+    justify-content: center;
   }
 }
 .container-carrusel {
@@ -127,52 +129,15 @@ section {
 
 .foto {
   height: 400px;
-  width: 300px;
-  border-radius: 30px;
+  width: 400px;
+  border-radius: 35px;
   padding: 5%;
 }
 
-/* Página de inscripción */
-/* Banner */
-.container-banner-inscripcion {
-  width: 100%;
-  height: 65vh;
-  margin-bottom: 5%;
-}
-
-.banner-inscripcion {
-  width: 100%;
-  height: 65vh;
-  background-image: url(../img/pag-informativa-como-acumular/img1.jpg);
-  background-size: cover;
-}
-
-.texto-formulario-inscripcion {
-  display: flex;
-  justify-content: center;
-}
-
-#titulo-pagina-inscripcion {
-  color: black;
-}
-
-.container-formulario {
-  margin: 5%;
-}
-
-.texto-volver-inicio {
-  font-size: 15px;
-  text-decoration: underline;
-  color: blue;
-}
-
-/* Menú de navegación */
 .nav-item {
   padding-right: 25px;
 }
 
-/* Creando variables */
-/* Página de centro de ayuda */
 h1 {
   color: white;
   font-weight: bold;
@@ -182,12 +147,25 @@ h2 {
   color: white;
 }
 
-#titulo-centro-de-ayuda {
+/* Creando variables */
+#texto-centro-de-ayuda {
   color: black;
 }
 
 #accordionExample {
   margin: 0% 7%;
+}
+
+/* Creando variables */
+.contenedor-titulo-categoria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+#titulo-categoria-cliente {
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

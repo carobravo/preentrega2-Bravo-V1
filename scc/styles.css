@@ -172,7 +172,6 @@ section {
 }
 
 /* Creando variables */
-/* Página de centro de ayuda */
 h1 {
   color: white;
   font-weight: bold;
@@ -182,6 +181,7 @@ h2 {
   color: white;
 }
 
+/*Página Centro de ayuda*/
 #titulo-centro-de-ayuda {
   color: black;
 }
