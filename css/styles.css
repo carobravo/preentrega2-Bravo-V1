@@ -168,6 +168,7 @@ a {
 
 .contenedor-titulo-categoria h1 {
   color: black;
+  font-weight: bold;
 }
 
 .card img {
@@ -226,6 +227,7 @@ a {
 
 .contenedor-titulo-inscripcion h1 {
   color: black;
+  font-weight: bold;
 }
 
 /* Creando variables */
@@ -234,10 +236,6 @@ a {
   align-items: center;
   justify-content: center;
   margin: 5% 5%;
-}
-
-#titulo-canje {
-  color: black;
 }
 
 .container-cards {
@@ -265,7 +263,7 @@ a {
 }
 
 .card-img-top {
-  height: 300px;
+  height: 500px;
 }
 
 .icono-texto {
@@ -273,11 +271,12 @@ a {
 }
 .icono-texto img {
   color: black;
-  height: 12px;
+  height: 22px;
 }
 
 .contenedor-titulo-canje h1 {
   color: black;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
