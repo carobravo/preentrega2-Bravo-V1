@@ -148,7 +148,7 @@ h2 {
 }
 
 /* Creando variables */
-#texto-centro-de-ayuda {
+#titulo-centro-de-ayuda {
   color: black;
 }
 
@@ -166,6 +166,15 @@ h2 {
 
 #titulo-categoria-cliente {
   color: black;
+}
+
+/* Creando variables */
+#titulo-centro-de-ayuda {
+  color: black;
+}
+
+#accordionExample {
+  margin: 0% 7%;
 }
 
 /*# sourceMappingURL=styles.css.map */
