@@ -35,6 +35,13 @@
     color: blue;
 }
 
+.contenedor-titulo-inscripcion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 5%;
+}
+
 #titulo-inscripcion{
     color:$color-titulos;
 }
