@@ -42,6 +42,8 @@
     margin: 5% 5%;
 }
 
-#titulo-inscripcion{
-    color:$color-titulos;
+.contenedor-titulo-inscripcion{
+    h1{
+        color: $color-titulos;
+    }
 }

@@ -147,7 +147,7 @@ h2 {
 }
 
 /* Creando variables */
-#titulo-centro-de-ayuda {
+.texto-que-quieres-cajear h1 {
   color: black;
 }
 
@@ -163,12 +163,16 @@ h2 {
   margin: 5% 5%;
 }
 
-#titulo-categoria-cliente {
+.contenedor-titulo-categoria h1 {
   color: black;
 }
 
+.card img {
+  height: 200px;
+}
+
 /* Creando variables */
-#titulo-centro-de-ayuda {
+.texto-que-quieres-cajear h1 {
   color: black;
 }
 
@@ -217,7 +221,7 @@ h2 {
   margin: 5% 5%;
 }
 
-#titulo-inscripcion {
+.contenedor-titulo-inscripcion h1 {
   color: black;
 }
 
@@ -230,6 +234,46 @@ h2 {
 }
 
 #titulo-canje {
+  color: black;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .container-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .container-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.card {
+  max-width: 100%;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+.icono-texto {
+  margin: 5%;
+}
+.icono-texto img {
+  color: black;
+  height: 12px;
+}
+
+.contenedor-titulo-canje h1 {
   color: black;
 }
 

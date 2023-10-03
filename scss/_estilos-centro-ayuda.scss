@@ -1,7 +1,9 @@
 @import "variables";
 
-#titulo-centro-de-ayuda{
-    color:$color-titulos
+.texto-que-quieres-cajear{
+    h1{
+        color: $color-titulos;
+    }
 }
 
 #accordionExample{

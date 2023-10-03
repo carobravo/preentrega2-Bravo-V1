@@ -7,6 +7,14 @@
     margin: 5% 5%;
 }
 
-#titulo-categoria-cliente{
-    color:$color-titulos;
+.contenedor-titulo-categoria{
+    h1{
+        color:black;
+    }
+}
+
+.card{
+    img{
+        height: 200px;
+    }
 }
