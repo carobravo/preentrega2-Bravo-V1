@@ -137,12 +137,15 @@ a {
   padding-right: 25px;
 }
 
-h1 {
+.texto-como-acumular-home h1, .banner-texto h1, .texto-que-quieres-cajear h1 {
   color: white;
   font-weight: bold;
 }
-
-h2 {
+.texto-como-acumular-home h2, .banner-texto h2, .texto-que-quieres-cajear h2 {
+  color: white;
+  font-weight: bold;
+}
+.texto-como-acumular-home h3, .banner-texto h3, .texto-que-quieres-cajear h3 {
   color: white;
 }
 

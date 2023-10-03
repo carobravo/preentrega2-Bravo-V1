@@ -144,11 +144,19 @@ a{
     padding-right: 25px;
 }
 
-h1{
-    color:$color-titulos-home;
-    font-weight:$fuente-bold;
+
+
+.texto-como-acumular-home, .banner-texto, .texto-que-quieres-cajear{
+    h1{
+        color:$color-titulos-home;
+        font-weight: $fuente-bold;
+    }
+    h2{
+        color: $color-subtitulos-home;
+        font-weight: bold;
+    }
+    h3{
+        color: $color-subtitulos-home;
+    }
 }
 
-h2{
-    color:$color-subtitulos-home
-}
