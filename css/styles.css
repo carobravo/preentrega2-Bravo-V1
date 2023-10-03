@@ -17,6 +17,10 @@ header {
   opacity: 0.9;
 }
 
+a {
+  text-decoration: none;
+}
+
 .color-de-fondo-home {
   background-color: indigo;
 }
@@ -156,7 +160,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5%;
+  margin: 5% 5%;
 }
 
 #titulo-categoria-cliente {
@@ -218,6 +222,13 @@ h2 {
 }
 
 /* Creando variables */
+.contenedor-titulo-canje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 5%;
+}
+
 #titulo-canje {
   color: black;
 }
